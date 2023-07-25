@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-stater",
+  "version": "1.0.0",
+  "description": "setup to tailwindcss with npm run dev & npm run build command",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/css/development.css --watch",
+    "build": "npx tailwindcss -o ./dist/css/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imam-muwatok/tailwind-stater.git"
+  },
+  "keywords": [
+    "setup",
+    "tailwind"
+  ],
+  "author": "Muhammad Imam muwatok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imam-muwatok/tailwind-stater/issues"
+  },
+  "homepage": "https://github.com/imam-muwatok/tailwind-stater#readme"
+}
